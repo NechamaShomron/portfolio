@@ -7,6 +7,8 @@
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .07), 0 1px 2px 0 rgba(0, 0, 0, .05);
     position: fixed;
     width: 100%;
+    z-index:1;
+    background-color: #fff;
 }
 
 .navbar_menu {
@@ -96,7 +98,7 @@
     
     .navbar_menu {
         display: flex;
-        justify-content: end;
+        justify-content:  flex-end;
         align-items: center;
         list-style: none;
         padding: 0;
@@ -127,6 +129,3 @@
     }
 
 }
-
-@media only screen and (min-width: 768px){}
-@media only screen and (min-width: 1200px) {}
