@@ -76,16 +76,16 @@
 }
 
 .navbar_link:hover,
-.navbar_link:active {
+.active_link {
     color: var(--lightPurple);
-    font-weight: 400;
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
     .hamburger_container {
         display: none;
     }
-    
+
     .hamburger_bar {
         display: block;
         width: 25px;
@@ -126,6 +126,10 @@
         font-weight: 400;
         color: black;
         text-decoration: none;
+    }
+    .active_link {
+        color: var(--lightPurple);
+        text-decoration: underline;
     }
 
 }

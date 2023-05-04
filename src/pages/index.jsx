@@ -31,7 +31,7 @@ export default function Home() {
             Hello, I&apos;m
             <span className={styles.name}> Nechama Shomron.</span>
           </div>
-          <Image width={200} height={200} src={myImagePath} role="presentation" loader={() => myImagePath} alt="My Image" className={styles.my_image} unoptimized priority />
+          <Image width={170} height={150} src={myImagePath} role="presentation" loader={() => myImagePath} alt="My Image" className={styles.my_image} unoptimized priority />
         </div>
         <div className={styles.profession}>And I&apos;m a Full Stack Web Developer!</div>
         <div className={styles.introduction}>
