@@ -1,0 +1,22 @@
+[
+    {
+        "Title": "Battleship Game",
+        "Description": "An online multiplayer battleship game. Players can choose different board sizes, place their ships vertical or horizontal, keep score, rematch and view their previous moves.",
+        "Technologies": "Next.js, JavaScript, HTML, CSS, Node.js and Socket.IO."
+    },
+    {
+        "Title": "To-Do app",
+        "Description": "A todo app where you can plan, track, prioritize and share tasks with friends. Users can create multiple tables for diverse task categories.",
+        "Technologies": "Angular, TypeScript, HTML, CSS, C#, Entity Framework and Socket.IO."
+    },
+    {
+        "Title": "Favorite Locations",
+        "Description": "Developed a website where signed in users can share places they have traveled to with their opinions and ratings. Users can view these places and open them on google maps.",
+        "Technologies": "React, JavaScript, HTML, CSS, Express, Node.js and MongoDB."
+    },
+    {
+        "Title": "3D Image Creation",
+        "Description": "Developed a project that is designated for the creation of complex 3D images with light, shadow, and reflection. The images can include different geometries such as spheres, cylinders, triangles, and more. Allowing the user to choose the location of the camera and perform rays-based rendering.",
+        "Technologies": "Java."
+    }
+]
