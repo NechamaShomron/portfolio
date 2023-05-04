@@ -28,7 +28,7 @@ export default function About({ bioData }) {
 }
 
 export async function getStaticProps() {
-  const bioData = await getLocalData();
+  const bioData = await getLocalData('json/bioData.json');
 
   return {
     props: { bioData },
