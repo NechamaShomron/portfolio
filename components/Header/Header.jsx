@@ -24,7 +24,7 @@ export default function Header() {
             <a href="/" className={router.pathname === '/' ? `${styles.navbar_link} ${styles.active_link}` : styles.navbar_link}>Home</a>
           </li>
           <li className={styles.navbar_item} role="presentation" onClick={toggleMobileView}>
-            <a href="/about" className={router.pathname === 'about' ? `${styles.navbar_link} ${styles.active_link}` : styles.navbar_link}>About</a>
+            <a href="/about" className={router.pathname === '/about' ? `${styles.navbar_link} ${styles.active_link}` : styles.navbar_link}>About</a>
           </li>
           <li className={styles.navbar_item} role="presentation" onClick={toggleMobileView}>
             <a href="/projects" className={router.pathname === '/projects' ? `${styles.navbar_link} ${styles.active_link}` : styles.navbar_link}>Projects</a>

@@ -1,4 +1,4 @@
-.body_container{
+.body_container {
   display: flex;
   flex-direction: column;
   margin-top: 3.3rem;
@@ -7,7 +7,7 @@
   padding-left: 2rem;
 }
 
-.hero_container{
+.hero_container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,10 +17,12 @@
   padding-top: 1rem;
   width: min-content;
 }
-.my_image{
+
+.my_image {
   margin-left: 1rem;
 }
-.title{
+
+.title {
   width: min-content;
   display: flex;
   flex-direction: column;
@@ -28,67 +30,79 @@
   font-weight: bold;
   line-height: 1.3;
 }
-.name{
+
+.name {
   color: var(--lightPurple);
 }
-.profession{
+
+.profession {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 1.4rem;
   font-weight: 500;
 }
-.introduction{
+
+.introduction {
   font-size: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
-  .hero_container{
+  .hero_container {
     padding-bottom: 2rem;
     padding-top: 0rem;
     align-self: auto;
     justify-content: space-between;
     width: 100vw;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
   }
-  .my_image{
+
+  .my_image {
     margin-top: 0.7rem;
     margin-right: 4rem;
   }
-  .title{
+
+  .title {
     font-size: 2.5rem;
     width: 35rem;
   }
-  .profession{
+
+  .profession {
     margin-top: -1rem;
     margin-bottom: 0rem;
     font-size: 1.2rem;
   }
-  .introduction{
+
+  .introduction {
     font-size: 1em;
     margin-top: 2rem;
   }
 }
+
 @media only screen and (min-width: 991px) {
-  .hero_container{
+  .hero_container {
     padding-bottom: 2rem;
     padding-top: 1rem;
     align-self: auto;
     justify-content: space-between;
     width: 100vw;
   }
-  .my_image{
+
+  .my_image {
     margin-left: 2rem;
   }
-  .title{
+
+  .title {
     font-size: 3.2rem;
     width: 40rem;
   }
-  .profession{
+
+  .profession {
     margin-top: -1rem;
     margin-bottom: 0rem;
     font-size: 1.2rem;
   }
-  .introduction{
+
+  .introduction {
     font-size: 1em;
     margin-top: 2rem;
   }

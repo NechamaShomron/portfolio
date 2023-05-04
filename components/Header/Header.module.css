@@ -33,7 +33,7 @@
 .hamburger_container {
     display: block;
     cursor: pointer;
-    padding-right: 0.4rem;
+    margin-right: 0.4rem;
 
 }
 .logo_image{
@@ -78,7 +78,6 @@
 .navbar_link:hover,
 .active_link {
     color: var(--lightPurple);
-    text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,7 +128,6 @@
     }
     .active_link {
         color: var(--lightPurple);
-        text-decoration: underline;
     }
 
 }
