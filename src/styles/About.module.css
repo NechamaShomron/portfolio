@@ -34,7 +34,7 @@
 
 @media only screen and (min-width: 600px) {
     .main_container {
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
     }
 
     .header {
@@ -59,25 +59,21 @@
 }
 
 @media only screen and (min-width: 991px) {
-    .main_container {
-        margin-top: 4.5rem;
-    }
-
     .header {
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     .sub_title {
-        font-size: 1.5rem;
-        margin-bottom: 1.8rem;
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;
     }
 
     .my_image {
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.4rem;
     }
 
     .bio {
-        font-size: 1.2rem;
-        line-height: 1.7;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 }
