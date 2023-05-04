@@ -40,15 +40,19 @@
 
 @media only screen and (min-width: 600px) {
   .hero_container{
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
     padding-top: 0rem;
+    align-self: auto;
+    justify-content: space-between;
+    width: 100vw;
+    margin-bottom:1rem;
   }
   .my_image{
-    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .title{
-    font-size: 2rem;
-    width: 21rem;
+    font-size: 3rem;
+    width: 35rem;
   }
   .profession{
     margin-top: -1rem;
@@ -64,6 +68,12 @@
   .hero_container{
     padding-bottom: 2rem;
     padding-top: 1rem;
+    align-self: auto;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .my_image{
+    margin-right: 2rem;
   }
   .title{
     font-size: 3.2rem;
