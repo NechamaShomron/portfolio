@@ -46,8 +46,9 @@
   font-size: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .hero_container {
+    margin-top: 6rem;
     padding-bottom: 2rem;
     padding-top: 0rem;
     align-self: auto;

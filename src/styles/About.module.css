@@ -32,9 +32,9 @@
     line-height: 1.6;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .main_container {
-        margin-top: 3.5rem;
+        margin-top: 6rem;
     }
 
     .header {
@@ -59,6 +59,7 @@
 }
 
 @media only screen and (min-width: 991px) {
+
     .header {
         font-size: 2.6rem;
     }

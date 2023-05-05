@@ -1,0 +1,40 @@
+.contact_container {
+    margin-top: 3.3rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.inner_title {
+    color: var(--lightPurple);
+}
+
+
+@media only screen and (min-width: 768px) {
+    .contact_container {
+        margin-top: 6rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+    }
+
+}
+
+@media only screen and (min-width: 991px) {
+
+    .header {
+        font-size: 2.6rem;
+    }
+}

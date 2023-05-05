@@ -18,8 +18,8 @@
     text-decoration-thickness: 0.2rem;
     text-underline-position: under;
 }
-.description {}
 
+.description {}
 
 .technologies_container {
     font-weight: 500;
@@ -28,20 +28,11 @@
     margin-top: 0.8rem;
     flex-wrap: wrap;
 }
-.technology{
+
+.technology {
     border: 3px solid var(--lightPurple);
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 5px;
     font-weight: 500;
 }
-
-@media only screen and (min-width: 600px) {
-    .project_container{
-        margin-right: 2rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
-    }
-}
-
-@media only screen and (min-width: 991px) {}
