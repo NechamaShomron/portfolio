@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import styles from "./Header.module.css";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import { useRouter } from 'next/router';
+import styles from './Header.module.css';
 
 export default function Header() {
   const [showMobile, setShowMobile] = useState(false);
   const router = useRouter();
 
-  const logoImage = "/logo.PNG";
+  const logoImage = '/logo.PNG';
   function toggleMobileView() {
     setShowMobile(!showMobile);
   }
@@ -44,7 +44,7 @@ export default function Header() {
             <a
               href="/"
               className={
-                router.pathname === "/"
+                router.pathname === '/'
                   ? `${styles.navbar_link} ${styles.active_link}`
                   : styles.navbar_link
               }
@@ -60,7 +60,7 @@ export default function Header() {
             <a
               href="/about"
               className={
-                router.pathname === "/about"
+                router.pathname === '/about'
                   ? `${styles.navbar_link} ${styles.active_link}`
                   : styles.navbar_link
               }
@@ -76,7 +76,7 @@ export default function Header() {
             <a
               href="/projects"
               className={
-                router.pathname === "/projects"
+                router.pathname === '/projects'
                   ? `${styles.navbar_link} ${styles.active_link}`
                   : styles.navbar_link
               }
@@ -92,7 +92,7 @@ export default function Header() {
             <a
               href="/contact"
               className={
-                router.pathname === "/contact"
+                router.pathname === '/contact'
                   ? `${styles.navbar_link} ${styles.active_link}`
                   : styles.navbar_link
               }

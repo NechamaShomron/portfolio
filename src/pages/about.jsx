@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import getLocalData from "../../lib/localdata";
-import styles from "../styles/About.module.css";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import getLocalData from '../../lib/localdata';
+import styles from '../styles/About.module.css';
 
 // eslint-disable-next-line react/prop-types
 export default function About({ bioData }) {
@@ -14,7 +14,9 @@ export default function About({ bioData }) {
   return (
     <div className={styles.main_container}>
       <div className={styles.header}>
-        ABOUT <span className={styles.inner_title}>ME</span>
+        ABOUT
+        {' '}
+        <span className={styles.inner_title}>ME</span>
       </div>
       <div className={styles.sub_title}>{data && data.subIitle}</div>
       <Image
@@ -34,7 +36,7 @@ export default function About({ bioData }) {
 }
 
 export async function getStaticProps() {
-  const bioData = await getLocalData("json/bioData.json");
+  const bioData = await getLocalData('json/bioData.json');
 
   return {
     props: { bioData },
